@@ -42,30 +42,6 @@ document.addEventListener('keydown', (event) => {
     }
 })
 multi();
-
-function good(){
-    if(Number(bal.innerText) === -10){
-        alert('teacher is angry because of you!! i will give -1')
-        bal.innerText = Number(bal.innerText) - 1;
-    }
-
-if(Number(bal.innerText) === 10){
-    alert('good joob teacher will be proud of you! i will give one extra mark')
-    bal.innerText = Number(bal.innerText) + 1;
-}
-
-if(Number(bal.innerText) === 50){
-    alert('good joob teacher will be very happy!')
-    bal.innerText = Number(bal.innerText) + 1;
-}
-
-if(Number(bal.innerText) === 100){
-    alert('are you crazy? i think you are better then me!!! i will give ten extra mark');
-    bal.innerText = Number(bal.innerText) + 10;
-}
-requestAnimationFrame(good);
-}
-good();
     
 
 
