@@ -1,0 +1,28 @@
+.zafar{
+    position: absolute;
+    top: 25%;
+    right: 50%;
+    font-size: 60px;
+}
+.sardor{
+    position: absolute;
+    top: 40%;
+    right: 50%;
+    height: 50px;
+}
+.check{
+    position: absolute;
+    top: 40.5%;
+    right: 45%;
+    height: 50px;
+}
+.result{
+    position: absolute;
+    top: 52%;
+    right: 39%;
+    font-size: 29px;
+}
+
+.bal{
+    font-size: 50px;
+}
